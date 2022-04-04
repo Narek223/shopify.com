@@ -1,0 +1,36 @@
+.mainContainer {
+  width: 75%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 50px auto;
+}
+
+.mainContainer .arrow {
+  cursor: pointer;
+  border: none;
+  background-color: inherit;
+  font-size: 40px;
+}
+
+.mainContainer .window {
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+.mainContainer .window .allPagesContainer {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+/*# sourceMappingURL=carousel.css.map */

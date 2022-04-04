@@ -1,0 +1,153 @@
+.optionContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 90%;
+  margin: 150px auto 0 auto;
+}
+
+.optionContainer .optionContainerImage {
+  width: 90%;
+  margin-left: 100px;
+  margin-top: 100px;
+}
+
+.optionContainer .optionContainerRight {
+  width: 100%;
+  margin-left: 220px;
+}
+
+.optionContainer .optionContainerRight .colors {
+  margin: 5px;
+  color: white;
+  padding: 5px;
+  border-radius: 10px;
+}
+
+.optionContainer .optionContainerRight .colorsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 20px 0;
+}
+
+.optionContainer .optionContainerRight .colorsContainer .childBlack {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.optionContainer .optionContainerRight .sizes {
+  margin: 20px 0;
+}
+
+.optionContainer .optionContainerRight .sizeContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.optionContainer .optionContainerRight .sizeContainer .black {
+  width: 50px;
+  background-color: black;
+  color: white;
+  margin: 0 7px;
+  padding: 5px;
+  text-align: center;
+}
+
+.optionContainer .optionContainerRight .sizeContainer .sizeNumber {
+  width: 50px;
+  margin: 0 7px;
+  padding: 5px;
+  border: 1px solid black;
+  text-align: center;
+  cursor: pointer;
+}
+
+.optionContainer .optionContainerRight .sizeContainer .sizeNumber:hover {
+  background-color: black;
+  color: white;
+}
+
+.optionContainer .optionContainerRight .quantityContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 40px 0;
+}
+
+.optionContainer .optionContainerRight .quantityContainer .quantityBtn {
+  border: 1px solid gray;
+  font-size: 20px;
+  background-color: white;
+  padding: 5px 15px 7px 15px;
+  cursor: pointer;
+  color: black;
+}
+
+.optionContainer .optionContainerRight .quantityContainer .quantityNumber {
+  padding: 9px 15px;
+  margin-bottom: 5px;
+  border: 1px solid gray;
+  background-color: #e2e2e2;
+}
+
+.optionContainer .optionContainerRight .catrBtn {
+  width: 100%;
+  background-color: white;
+  color: black;
+  height: 45px;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+.optionContainer .optionContainerRight .catrBtn:hover {
+  background-color: black;
+  color: white;
+}
+
+.optionContainer .optionContainerRight .buyBtn {
+  width: 100%;
+  border: 1px solid #284228;
+  background-color: #284228;
+  color: white;
+  cursor: pointer;
+  height: 45px;
+  margin: 20px 0;
+}
+
+.optionContainer .optionContainerRight .buyBtn:hover {
+  background-color: #141f14;
+}
+
+.optionContainer .optionContainerRight .socIconsContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-bottom: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.optionContainer .optionContainerRight .socIconsContainer .icons {
+  margin: 0 10px;
+  font-size: 22px;
+  opacity: 0.8;
+  color: #333333;
+}
+
+.loading {
+  text-align: center;
+  font-size: 40px;
+  height: 100vh;
+  padding-top: 100px;
+}
+/*# sourceMappingURL=option.css.map */

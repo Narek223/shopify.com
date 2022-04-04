@@ -1,0 +1,221 @@
+.modal {
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.4);
+  position: fixed;
+  left: 0;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  opacity: 0;
+  pointer-events: none;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  z-index: 2;
+}
+
+.modal .modalContent {
+  background-color: white;
+  z-index: 2;
+  -webkit-transform: scale(0.5);
+          transform: scale(0.5);
+  -webkit-transition: .6s;
+  transition: .6s;
+  min-width: 700px;
+  min-height: 300px;
+}
+
+.modal .modalContent .cartTitle {
+  text-align: center;
+  padding: 15px 0;
+  font-size: 25px;
+  letter-spacing: 8px;
+  background-color: #eeeeee;
+}
+
+.modal .modalContent .emptyCart {
+  text-align: center;
+  font-size: 20px;
+  color: red;
+  padding-top: 20px;
+}
+
+.modal .modalContent .cartItem {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 120px;
+  padding: 20px;
+  width: 90%;
+  margin: 0 auto;
+  border-bottom: 1px solid gray;
+}
+
+.modal .modalContent .cartItem .cartItemImage {
+  width: 50px;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.modal .modalContent .cartItem .category {
+  margin: 0 35px 0 -10px;
+  width: 80px;
+  color: #444631;
+  height: 50px;
+  overflow: hidden;
+}
+
+.modal .modalContent .cartItem .quantityBtn {
+  border: 1px solid gray;
+  font-size: 20px;
+  background-color: white;
+  padding: 5px 15px 7px 15px;
+  cursor: pointer;
+  color: black;
+}
+
+.modal .modalContent .cartItem .quantityNumber {
+  padding: 9px 15px;
+  width: 20px;
+  margin-bottom: 5px;
+  border: 1px solid gray;
+  background-color: #e2e2e2;
+}
+
+.modal .modalContent .cartItem .cartProductInfo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.modal .modalContent .cartItem .cartProductInfo p {
+  margin: 20px 0;
+}
+
+.modal .modalContent .cartItem .cartProductInfo .color {
+  padding: 2px;
+  border-radius: 5px;
+}
+
+.modal .modalContent .cartItem .cartProductInfo .size {
+  border: 1px solid black;
+  padding: 5px;
+  margin-left: 10px;
+  font-weight: bolder;
+  border-radius: 5px;
+}
+
+.modal .modalContent .cartItem .delete {
+  background-color: #dadada;
+  margin-left: 25px;
+  padding: 8px 13px;
+  border-radius: 18px;
+  font-size: 15px;
+  -webkit-transition: .5s;
+  transition: .5s;
+  border: none;
+}
+
+.modal .modalContent .cartItem .delete:hover {
+  background-color: red;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: .5s;
+  transition: .5s;
+  color: white;
+}
+
+.modal .modalContent .subCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+
+.modal .modalContent .subCont .subtotal {
+  font-size: 20px;
+  color: #992828;
+  margin-right: 10px;
+  letter-spacing: 2px;
+}
+
+.modal .modalContent .cartBtns {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 0 auto;
+}
+
+.modal .modalContent .cartBtns .cartBTN {
+  width: 48%;
+  height: 50px;
+  margin: 30px 0 15px 0;
+  letter-spacing: 3px;
+  font-weight: 100;
+  cursor: pointer;
+}
+
+.modal .modalContent .cartBtns .continue {
+  background-color: white;
+  border: 1px solid #444631;
+}
+
+.modal .modalContent .cartBtns .continue:hover {
+  background-color: black;
+  color: white;
+}
+
+.modal .modalContent .cartBtns .check {
+  background-color: #444631;
+  border: 1px solid #444631;
+  color: white;
+}
+
+.modal .modalContent .cartBtns .check:hover {
+  background-color: #383a29;
+}
+
+.modal .modalContent.active {
+  -webkit-transform: scale(1);
+          transform: scale(1);
+  -webkit-transition: .6s;
+  transition: .6s;
+}
+
+.modal.active {
+  opacity: 1;
+  pointer-events: all;
+}
+/*# sourceMappingURL=modalCart.css.map */

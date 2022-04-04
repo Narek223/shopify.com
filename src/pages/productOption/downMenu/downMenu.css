@@ -1,0 +1,109 @@
+.optionDownMenuContainer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 100%;
+}
+
+.optionDownMenuContainer .optionDownMenuContainerLeftChild {
+  width: 70%;
+  margin-left: 50px;
+}
+
+.optionDownMenuContainer .guaranateeContainet {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 20px 20px 0 0;
+  font-size: 18px;
+  border-top: 1px solid black;
+  width: 92%;
+  cursor: pointer;
+  margin-top: 15px;
+}
+
+.optionDownMenuContainer .bolder {
+  font-weight: bolder;
+}
+
+.optionDownMenuContainer .trigger {
+  width: 90%;
+  overflow: hidden;
+  font-size: 18px;
+  height: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.optionDownMenuContainer .activeTrigger {
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 350px;
+}
+
+.optionDownMenuContainer .activeTrigger2 {
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 600px;
+}
+
+.optionDownMenuContainer .sizeGiudeContainer {
+  margin-top: 10px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  width: 90%;
+  overflow: hidden;
+  height: 0;
+}
+
+.optionDownMenuContainer .guideContChild {
+  padding: 10px;
+}
+
+.optionDownMenuContainer .guideContChild p {
+  margin: 10px 0;
+}
+
+.optionDownMenuContainer .optionDownMenuContainerRightChild {
+  width: 45%;
+  margin-right: 20px;
+}
+
+.optionDownMenuContainer .optionDownMenuContainerRightChild li {
+  margin: 15px 0;
+}
+
+.optionDownMenuContainer .trigger3 {
+  overflow: hidden;
+  height: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.optionDownMenuContainer .activeTrigger3 {
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 200px;
+}
+
+.optionDownMenuContainer .zagalovka {
+  background-color: #dbdbdb;
+  width: 92%;
+  padding: 10px;
+  overflow: hidden;
+  height: 35px;
+}
+
+.optionDownMenuContainer .trigger3 p {
+  margin: 25px 0;
+}
+/*# sourceMappingURL=downMenu.css.map */

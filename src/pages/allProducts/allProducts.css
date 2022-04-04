@@ -1,0 +1,316 @@
+.imageContainerAll {
+  height: 100vh;
+  overflow: hidden;
+}
+
+.imageContainerAll .allImg {
+  -webkit-transform: scale(1.2);
+          transform: scale(1.2);
+  -webkit-transition: 20s;
+  transition: 20s;
+}
+
+.theStore {
+  text-align: center;
+  margin: 30px 0;
+}
+
+.theStore h2 {
+  margin: 10px 0;
+  font-weight: lighter;
+}
+
+.theStore p {
+  width: 500px;
+  margin: 0 auto;
+  line-height: 1.7;
+}
+
+.containerProds {
+  width: 98%;
+  margin: 0 auto;
+  margin-top: 100px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr 4fr;
+      grid-template-columns: 1fr 4fr;
+  -ms-grid-rows: 1fr auto;
+      grid-template-rows: 1fr auto;
+  grid-row-gap: 20px;
+}
+
+.containerProds .filters {
+  padding: 10px 20px;
+  height: 700px;
+  background-color: white;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 1;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-area: 1 / 1 / 2 / 2;
+  -ms-grid-row: 1;
+  -ms-grid-row-span: 3;
+  grid-row: 1/4;
+}
+
+.containerProds .filters .price {
+  border-bottom: 1px solid black;
+}
+
+.containerProds .filters .price p {
+  width: 100%;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.containerProds .filters .price .inputsCont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 10px 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 0;
+}
+
+.containerProds .filters .price .inputsCont .priceInps {
+  margin: 0 20px;
+  padding: 10px;
+  width: 100%;
+  height: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 0;
+  width: 0;
+}
+
+.containerProds .filters .price .inputsCont .priceInps:focus {
+  outline: none;
+}
+
+.containerProds .filters .price .inputsCont .showInps {
+  height: 30px;
+  -webkit-transition: 1s;
+  transition: 1s;
+  opacity: 1;
+  width: 100%;
+}
+
+.containerProds .filters .price .inputsCont .priceDash {
+  font-size: 18px;
+  display: none;
+}
+
+.containerProds .filters .price .inputsCont .showPriceDash {
+  display: block;
+}
+
+.containerProds .filters .price .showContInps {
+  -webkit-transition: 1s;
+  transition: 1s;
+  height: 30px;
+}
+
+.containerProds .filters .price .rangeContainer {
+  height: 0;
+  margin: 20px 0;
+}
+
+.containerProds .filters .price .rangeContainer .slider {
+  display: none;
+  height: 5px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.containerProds .filters .price .rangeContainer .slider .progress {
+  height: 100%;
+  left: 0%;
+  right: 0%;
+  position: absolute;
+  border-radius: 5px;
+  background-color: grey;
+}
+
+.containerProds .filters .price .rangeContainer .active {
+  display: block;
+}
+
+.containerProds .filters .price .activeRangeContainer {
+  height: 20px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.containerProds .filters .price .range-input {
+  position: relative;
+  display: none;
+}
+
+.containerProds .filters .price .range-input .input[type="range"]::-webkit-slider-thumb {
+  height: 17px;
+  width: 17px;
+  border-radius: 50%;
+  background: black;
+  pointer-events: auto;
+  -webkit-appearance: none;
+  -webkit-box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+          box-shadow: 0 0 6px rgba(0, 0, 0, 0.05);
+}
+
+.containerProds .filters .price .range-input .input {
+  position: absolute;
+  width: 100%;
+  height: 5px;
+  top: -5px;
+  background: none;
+  pointer-events: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.containerProds .filters .ava {
+  margin-top: 10px;
+}
+
+.containerProds .filters .ava p {
+  margin: 5px 0;
+}
+
+.containerProds .filters .ava p .dash {
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  border: 1px solid black;
+}
+
+.containerProds .filters .ava p .dash:hover {
+  background-color: #000000;
+}
+
+.containerProds .filters .ava .avaCont {
+  height: 0;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.containerProds .filters .ava .showAva {
+  height: 50px;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.containerProds .div2 {
+  height: 40px;
+  padding: 0 25px;
+  border-bottom: 2px solid gray;
+  margin-bottom: 30px;
+}
+
+.containerProds .div2 button {
+  min-width: 60px;
+  margin-left: 20px;
+  padding: 5px 10px;
+  border: none;
+  background-color: #ebebeb;
+  -webkit-transition: .3s;
+  transition: .3s;
+  border-radius: 25px;
+}
+
+.containerProds .div2 button span {
+  color: red;
+  margin-left: 20px;
+}
+
+.containerProds .div2 button:hover {
+  background-color: #ff8686;
+  color: white;
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+  -webkit-transition: .3s;
+  transition: .3s;
+}
+
+.containerProds .products {
+  display: -ms-grid;
+  display: grid;
+  padding: 0 50px;
+  margin: 0 auto;
+  -ms-grid-columns: 1fr 1fr 1fr;
+      grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 55px;
+  position: relative;
+}
+
+.containerProds .products .notFound {
+  height: 500px;
+  text-align: center;
+  font-size: 30px;
+  -ms-grid-row: 1;
+  -ms-grid-column: 2;
+  grid-area: 1/2;
+}
+
+.containerProds .products .gridChild {
+  text-align: center;
+  padding-bottom: 20px;
+  margin-right: 20px;
+  position: relative;
+  -webkit-transition: 1s;
+  transition: 1s;
+}
+
+.containerProds .products .gridChild img {
+  height: 300px;
+  border-radius: 20px;
+}
+
+.containerProds .products .gridChild .title {
+  padding-top: 25px;
+  margin-bottom: 25px;
+  border-top: 1px solid black;
+}
+
+.containerProds .products .btnOption {
+  text-decoration: none;
+  cursor: pointer;
+  width: 100%;
+  border: none;
+  background-color: #444631;
+  color: white;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  position: absolute;
+  margin-top: 300px;
+  left: 0;
+  height: 0;
+  -webkit-transition: .5s;
+  transition: .5s;
+  opacity: 0;
+  padding: 18px 0;
+}
+
+.containerProds .products .activeHoverBtn {
+  opacity: 1;
+  bottom: 105px;
+  height: 50px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  -ms-flex-line-pack: center;
+      align-content: center;
+}
+
+.containerProds .products .gridChild:hover {
+  -webkit-transform: scale(1.04);
+          transform: scale(1.04);
+  -webkit-transition: 1s;
+  transition: 1s;
+  border-radius: 20px;
+}
+/*# sourceMappingURL=allProducts.css.map */

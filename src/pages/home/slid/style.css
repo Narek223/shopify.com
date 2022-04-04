@@ -1,0 +1,284 @@
+.conteiner .three {
+  position: relative;
+  height: 850px;
+  width: 100%;
+  overflow: hidden;
+}
+
+.conteiner .three .img img {
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 850px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-animation-play-state: running;
+          animation-play-state: running;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+  -webkit-animation-name: slide;
+          animation-name: slide;
+  -webkit-animation-duration: 20s;
+          animation-duration: 20s;
+}
+
+@-webkit-keyframes slide {
+  0%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+@keyframes slide {
+  0%, 100% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    -webkit-transform: scale(1.2);
+            transform: scale(1.2);
+  }
+}
+
+.conteiner .three .img .finally {
+  position: relative;
+  width: 100%;
+  margin: 0 0 25px 0;
+}
+
+.conteiner .three .img .finally .better {
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  position: absolute;
+  -webkit-animation-name: left;
+          animation-name: left;
+  top: 5px;
+  width: 30%;
+  padding: 220px 40px;
+  font-weight: 400;
+}
+
+.conteiner .three .img .finally .better hr {
+  position: absolute;
+  top: 55%;
+  padding: 2px;
+  background-color: #444631;
+  width: 6%;
+  border: none;
+  border-radius: 9%;
+}
+
+.conteiner .three .img .finally .better h1 {
+  position: relative;
+  font-weight: 100;
+  font-size: 2.6em;
+  color: white;
+}
+
+.conteiner .three .img .finally .better p {
+  font-weight: 100;
+  color: white;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+.conteiner .three .img .finally .better button {
+  background-color: #444631;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@-webkit-keyframes left {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes left {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.conteiner .three .img .finally .responsible {
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-transition: -webkit-transform 1s ease-in-out;
+  transition: -webkit-transform 1s ease-in-out;
+  transition: transform 1s ease-in-out;
+  transition: transform 1s ease-in-out, -webkit-transform 1s ease-in-out;
+  text-align: center;
+  -webkit-animation-name: l;
+          animation-name: l;
+  position: absolute;
+  top: 25%;
+  left: 31%;
+  width: 25%;
+}
+
+.conteiner .three .img .finally .responsible hr {
+  position: absolute;
+  top: 50%;
+  margin-top: 25px;
+  margin-left: 45%;
+  padding: 2px;
+  background-color: #444631;
+  width: 7%;
+  border: none;
+  border-radius: 9%;
+}
+
+.conteiner .three .img .finally .responsible h1 {
+  position: relative;
+  font-weight: 100;
+  font-size: 2.6em;
+  color: white;
+}
+
+.conteiner .three .img .finally .responsible p {
+  font-weight: 100;
+  color: white;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+.conteiner .three .img .finally .responsible button {
+  background-color: #444631;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+@-webkit-keyframes l {
+  0% {
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes l {
+  0% {
+    -webkit-transform: translateY(90px);
+            transform: translateY(90px);
+  }
+  100% {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+.conteiner .three .img .finally .viking {
+  -webkit-animation-duration: 0.8s;
+          animation-duration: 0.8s;
+  -webkit-transition: -webkit-transform 0.6s ease-in-out;
+  transition: -webkit-transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out;
+  transition: transform 0.6s ease-in-out, -webkit-transform 0.6s ease-in-out;
+  -webkit-animation-name: right;
+          animation-name: right;
+  position: absolute;
+  top: 5px;
+  width: 30%;
+  padding: 200px 40px;
+}
+
+.conteiner .three .img .finally .viking hr {
+  position: absolute;
+  top: 55%;
+  padding: 2px;
+  background-color: #444631;
+  width: 6%;
+  border: none;
+  border-radius: 9%;
+}
+
+.conteiner .three .img .finally .viking h1 {
+  position: relative;
+  font-weight: 100;
+  font-size: 2.6em;
+  color: white;
+}
+
+.conteiner .three .img .finally .viking p {
+  font-weight: 100;
+  color: white;
+  line-height: 1.4;
+  font-size: 1.2em;
+}
+
+.conteiner .three .img .finally .viking button {
+  background-color: #444631;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  font-size: 1.1em;
+}
+
+@-webkit-keyframes right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+@keyframes right {
+  0% {
+    -webkit-transform: translateX(-100px);
+            transform: translateX(-100px);
+  }
+  100% {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+}
+
+.conteiner .three .buttons {
+  position: absolute;
+  top: 90%;
+  left: 90%;
+}
+
+.conteiner .three .buttons button {
+  background-color: #444631;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  cursor: pointer;
+  margin: 3px;
+}
+
+.conteiner .three .buttons i {
+  font-size: 1.3em;
+}
+/*# sourceMappingURL=style.css.map */
